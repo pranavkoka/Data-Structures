@@ -38,12 +38,6 @@ void buildheap(int *a, int n)
 	}
 }
 
-int max(int x, int y)
-{
-	if (x > y) {return x;}
-	else if (y > x) {return y;}
-}
-
 void show(int *a, int n)
 {
 	int i;
