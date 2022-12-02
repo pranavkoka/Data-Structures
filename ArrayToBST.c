@@ -41,7 +41,7 @@ NodeAddress* insert(NodeAddress* root, int item)
 	return root;
 }
 
-NodeAddress* arrayToReverseBST (int *a, int n)
+NodeAddress* arrayToBST (int *a, int n)
 {
 	NodeAddress* root = NULL;
 	int i;
@@ -58,7 +58,7 @@ int main()
 	int array[] = {40,2,9,13,17,69,42,57,60,27,1,7,11,70,41};
 	int* x = array;
 	int n = sizeof(array)/sizeof(array[0]);
-	NodeAddress* linkedlist = arrayToReverseBST(x,n);
+	NodeAddress* linkedlist = arrayToBST(x,n);
 	show(arrayToReverseBST(x,n));
 	return 0;
 }
